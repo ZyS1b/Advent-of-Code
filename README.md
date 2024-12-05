@@ -3,7 +3,7 @@
 Welcome to my Advent of Code 2024 repository! This project tracks my progress and solutions for each day's challenges during the Advent of Code 2024. The solutions are implemented in Python and organized in a structured format for easy navigation.
 
 ## Project Structure
-```bash 
+```shell 
 ├── .venv # Virtual environment for libraries 
 ├── .env # Contains private session token 
 ├── main.py # Main script to navigate and run solutions 
@@ -31,7 +31,7 @@ To set up this project on your local machine, follow these steps:
 
 1. **Clone the Repository**:
 
-    ```bash
+    ```shell
     git clone https://github.com/ZyS1b/Advent-of-Code.git
 
     cd Advent-of-Code
@@ -39,7 +39,7 @@ To set up this project on your local machine, follow these steps:
 
 2. **Create and Activate the Virtual Environment**:
    
-    ```bash 
+    ```shell 
     python -m venv .venv
     
     .\.venv\Scripts\activate
@@ -48,7 +48,7 @@ To set up this project on your local machine, follow these steps:
 3. **Install Dependencies**:
     Make sure to install all the required libraries:
 
-    ```bash 
+    ```shell 
     pip install -r requirements.txt
     ```
 
@@ -72,7 +72,7 @@ To set up this project on your local machine, follow these steps:
 5. **Run the Application**:
     To start the application, simply run:
     
-    ```bash
+    ```shell
     python main.py
     ```
 
