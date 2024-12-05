@@ -31,7 +31,7 @@ To set up this project on your local machine, follow these steps:
 
 1. **Clone the Repository**:
 
-    ```bash
+    ```console
     $ git clone https://github.com/ZyS1b/Advent-of-Code.git
 
     $ cd Advent-of-Code
@@ -39,7 +39,7 @@ To set up this project on your local machine, follow these steps:
 
 2. **Create and Activate the Virtual Environment**:
    
-    ```bash
+    ```console
     $ python -m venv .venv
     
     $ .\.venv\Scripts\activate
@@ -48,14 +48,14 @@ To set up this project on your local machine, follow these steps:
 3. **Install Dependencies**:
     Make sure to install all the required libraries:
 
-    ```bash
+    ```console
     $ pip install -r requirements.txt
     ```
 
 4. **Set Up Environment Variables**:
 
    Create a `.env` file in the root directory to store your private session token. Add the following line to the `.env` file:
-    ```bash
+    ```js
     AOC_SESSION_TOKEN = your_session_token_here
     ```
 
@@ -72,7 +72,7 @@ To set up this project on your local machine, follow these steps:
 5. **Run the Application**:
     To start the application, simply run:
     
-    ```bash
+    ```console
     $ python main.py
     ```
 
