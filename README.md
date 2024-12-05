@@ -31,25 +31,25 @@ To set up this project on your local machine, follow these steps:
 
 1. **Clone the Repository**:
 
-    ```shell
-    git clone https://github.com/ZyS1b/Advent-of-Code.git
+    ```bash
+    $ git clone https://github.com/ZyS1b/Advent-of-Code.git
 
-    cd Advent-of-Code
+    $ cd Advent-of-Code
     ```
 
 2. **Create and Activate the Virtual Environment**:
    
-    ```shell 
-    python -m venv .venv
+    ```bash
+    $ python -m venv .venv
     
-    .\.venv\Scripts\activate
+    $ .\.venv\Scripts\activate
     ```
 
 3. **Install Dependencies**:
     Make sure to install all the required libraries:
 
-    ```shell 
-    pip install -r requirements.txt
+    ```bash
+    $ pip install -r requirements.txt
     ```
 
 4. **Set Up Environment Variables**:
@@ -72,8 +72,8 @@ To set up this project on your local machine, follow these steps:
 5. **Run the Application**:
     To start the application, simply run:
     
-    ```shell
-    python main.py
+    ```bash
+    $ python main.py
     ```
 
 ## Usage
