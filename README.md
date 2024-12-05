@@ -32,9 +32,9 @@ To set up this project on your local machine, follow these steps:
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/Zyber/advent-of-code-2024.git
+    git clone https://github.com/ZyS1b/Advent-of-Code.git
 
-    cd advent-of-code-2024
+    cd Advent-of-Code
     ```
 
 2. **Create and Activate the Virtual Environment**:
