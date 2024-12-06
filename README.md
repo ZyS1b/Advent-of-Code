@@ -44,11 +44,11 @@ To set up this project on your local machine, follow these steps:
     ```
 
 3. **Activate the Virtual Environment**:
-- Windows
+   - Windows
     ```console
-    $ .\.venv\Scripts\activate
+    $ ./.venv/Scripts/activate
     ```
-- Linux/MacOS
+   - Linux/MacOS
     ```console
     $ source .venv/bin/activate
     ```
