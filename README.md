@@ -37,22 +37,30 @@ To set up this project on your local machine, follow these steps:
     $ cd Advent-of-Code
     ```
 
-2. **Create and Activate the Virtual Environment**:
+2. **Create the Virtual Environment**:
    
     ```console
     $ python -m venv .venv
-    
-    $ .\.venv\Scripts\activate
     ```
 
-3. **Install Dependencies**:
+3. **Activate the Virtual Environment**:
+- Windows
+    ```console
+    $ .\.venv\Scripts\activate
+    ```
+- Linux/MacOS
+    ```console
+    $ source .venv/bin/activate
+    ```
+
+4. **Install Dependencies**:
     Make sure to install all the required libraries:
 
     ```console
     $ pip install -r requirements.txt
     ```
 
-4. **Set Up Environment Variables**:
+5. **Set Up Environment Variables**:
 
    Create a `.env` file in the root directory to store your private session token. Add the following line to the `.env` file:
     ```js
@@ -69,7 +77,7 @@ To set up this project on your local machine, follow these steps:
 
     **Important**: Ensure that the `.env` file is not shared publicly or committed to version control, as it contains sensitive information.
 
-5. **Run the Application**:
+6. **Run the Application**:
     To start the application, simply run:
     
     ```console
