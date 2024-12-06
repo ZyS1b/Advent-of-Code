@@ -1,5 +1,8 @@
 import os
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def fetch_input(url, session_token):
     headers = {"Cookie": f"session={session_token}"}

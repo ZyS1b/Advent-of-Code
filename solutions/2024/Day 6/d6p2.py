@@ -1,10 +1,12 @@
 import requests
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def fetch_input(url, session_token):
     headers = {"Cookie": f"session={session_token}"}
     response = requests.get(url, headers=headers)
-    response.raise_for_status()
     return response.text.strip()
 
 def simulate_with_obstruction(grid, obstruction_pos):
