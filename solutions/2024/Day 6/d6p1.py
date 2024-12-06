@@ -19,7 +19,6 @@ def locate_guard(grid):
 
 def simulate_guard(grid, starting_position, starting_direction):
     # Simulate the guard's movement on the grid
-    
     DIRECTIONS = {'^': (-1, 0), '>': (0, 1), 'v': (1, 0), '<': (0, -1)}
     TURN_RIGHT = {'^': '>', '>': 'v', 'v': '<', '<': '^'}
 
