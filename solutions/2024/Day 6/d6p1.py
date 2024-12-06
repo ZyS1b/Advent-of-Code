@@ -4,7 +4,6 @@ import os
 def fetch_input(url, session_token):
     headers = {"Cookie": f"session={session_token}"}
     response = requests.get(url, headers=headers)
-    response.raise_for_status()
     return response.text.strip()
 
 def locate_guard(grid):
@@ -46,8 +45,9 @@ def simulate_guard(grid, starting_position, starting_direction):
 
     return len(visited)
 
-def main(session_token):
+def main():
     input_url = "https://adventofcode.com/2024/day/6/input"
+    session_token = os.getenv("AOC_SESSION_TOKEN")
     input_data = fetch_input(input_url, session_token)
     grid = [list(line) for line in input_data.splitlines()]
     
@@ -56,5 +56,4 @@ def main(session_token):
     print(f"Distinct positions visited: {result}")
 
 if __name__ == "__main__":
-    session_token = os.getenv("AOC_SESSION_TOKEN")
-    main(session_token)
+    main()
