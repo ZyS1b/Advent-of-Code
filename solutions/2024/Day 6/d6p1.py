@@ -2,7 +2,6 @@ import requests
 import os
 
 def fetch_input(url, session_token):
-    # Fetch input data from Advent of Code
     headers = {"Cookie": f"session={session_token}"}
     response = requests.get(url, headers=headers)
     response.raise_for_status()
@@ -48,7 +47,6 @@ def simulate_guard(grid, starting_position, starting_direction):
     return len(visited)
 
 def main(session_token):
-    # Main function to orchestrate the fetching of input and simulation
     input_url = "https://adventofcode.com/2024/day/6/input"
     input_data = fetch_input(input_url, session_token)
     grid = [list(line) for line in input_data.splitlines()]
